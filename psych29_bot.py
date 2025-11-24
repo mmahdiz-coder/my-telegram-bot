@@ -405,7 +405,7 @@ def show_payment_plan(chat_id, plan_type):
 • کارت به کارت (فعال سازی پس از واریز)
 
 ⚡ <b>پشتیبانی:</b>
-@YourSupportUsername"""
+@RavanshenaseeHamrah"""
     
     buttons = [
         [{"text": "💳 پرداخت آنلاین"}, {"text": "🏦 پرداخت کارت به کارت"}],
@@ -816,4 +816,5 @@ while True:
         
     except Exception as e:
         print(f"⚠️ خطا: {e}")
+
         time.sleep(3)
